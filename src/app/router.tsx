@@ -7,7 +7,7 @@ import {
   Outlet,
 } from '@tanstack/react-router'
 import Home from '../Home'
-import UploadResume from './upload-resume/index'
+import UploadResume from './users/index'
 // import Layout from '../components/common/Layout'
 
 const rootRoute = createRootRoute({

@@ -8,7 +8,7 @@ const UploadResume = () => {
       alignItems='center'
       minHeight='100vh'
     >
-      Upload Resume
+      Users
     </Box>
   )
 }

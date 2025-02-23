@@ -7,7 +7,7 @@ const Layout = () => {
     <>
       <TopBar />
       <Box padding={2}>
-        <Outlet /> {/* ✅ This will render the current page */}
+        <Outlet />
       </Box>
     </>
   )

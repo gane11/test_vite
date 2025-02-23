@@ -7,7 +7,7 @@ const TopBar = () => {
     <AppBar color='transparent'>
       <Toolbar>
         <Typography variant='h6' sx={{ flexGrow: 1 }}>
-          Invisible
+          HERE
         </Typography>
       </Toolbar>
     </AppBar>
