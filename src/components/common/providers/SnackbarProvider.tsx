@@ -4,8 +4,6 @@ import Snackbar from '@mui/material/Snackbar'
 import SnackbarContent from '@mui/material/SnackbarContent'
 import { createContext, ReactNode, useCallback, useState } from 'react'
 
-import theme from '@/styles/theme'
-
 type TVariant = 'success' | 'error' | 'warning' | 'info' | 'default'
 
 interface SnackbarContextType {
@@ -49,13 +47,13 @@ const SnackbarProvider = ({ children }: { children: ReactNode }) => {
   const getSnackbarBackground = (variant: TVariant) => {
     switch (variant) {
       case 'success':
-        return theme.palette.success.main
+        return 'green'
       case 'error':
-        return theme.palette.error.main
+        return 'red'
       case 'warning':
-        return theme.palette.warning.main
+        return 'orange'
       case 'info':
-        return theme.palette.info.main
+        return 'blue'
       default:
         return '#121212'
     }
